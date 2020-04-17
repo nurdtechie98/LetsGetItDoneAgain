@@ -3,25 +3,20 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
 ## Development server
+Clone the Repo `git clone https://github.com/nurdtechie98/LetsGetItDoneAgain.git`
+
+move t directory `cd LetsGetItDoneAgain`
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Angular Pipes
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Inbuilt Pipes : [String](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L6-L9) | [Currency](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/store/store.component.html#L4)
 
-## Build
+* Custom Pipes : [Usage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L18) | [Src Code](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/reverse-string.pipe.ts)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* Custom Pipes With Args : [Usegae](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L20) | [Src Code](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/append-string.pipe.ts)
 
-## Running unit tests
+* Custom Piped Using Inbuilt: [Useage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L21) | [Src Code](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/custom-lowercase.pipe.ts) | [Import](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/app.module.ts#L47) 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Pipe Chaining: [Useage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L22)
