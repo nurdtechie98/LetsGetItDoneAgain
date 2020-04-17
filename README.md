@@ -28,7 +28,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 * Attribut Directive [Directive](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/test-structural-directive.directive.ts) | [Usage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/47ee91c9a7cf08d592a2746286945dd72b06af71/src/app/store/store.component.html#L5)
 * Structural Directive [Directive](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/test-structural-directive.directive.ts) | [Usage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/47ee91c9a7cf08d592a2746286945dd72b06af71/src/app/home/home.component.html#L30)
 
-## Rounting
+## Routing
 * [Basic](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/47ee91c9a7cf08d592a2746286945dd72b06af71/src/app/app-routing.module.ts#L13-L19)
 * [UnknownEndPoint](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/47ee91c9a7cf08d592a2746286945dd72b06af71/src/app/app-routing.module.ts#L20)
 * [navigation](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/47ee91c9a7cf08d592a2746286945dd72b06af71/src/app/app.component.html#L314-L319)
