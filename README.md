@@ -15,8 +15,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 * Custom Pipes : [Usage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L18) | [Src Code](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/reverse-string.pipe.ts)
 
-* Custom Pipes With Args : [Usegae](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L20) | [Src Code](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/append-string.pipe.ts)
+* Custom Pipes With Args : [Usage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L20) | [Src Code](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/append-string.pipe.ts)
 
-* Custom Piped Using Inbuilt: [Useage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L21) | [Src Code](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/custom-lowercase.pipe.ts) | [Import](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/app.module.ts#L47) 
+* Custom Piped Using Inbuilt: [Usage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L21) | [Src Code](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/custom-lowercase.pipe.ts) | [Import](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/app.module.ts#L47) 
 
-* Pipe Chaining: [Useage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L22)
+* Pipe Chaining: [Usage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L22)
