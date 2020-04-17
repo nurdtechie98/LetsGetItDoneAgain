@@ -9,7 +9,7 @@ move t directory `cd LetsGetItDoneAgain`
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Angular Pipes
+## Angular Pipes (Home Page)
 
 * Inbuilt Pipes : [String](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L6-L9) | [Currency](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/store/store.component.html#L4)
 
