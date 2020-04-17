@@ -1,4 +1,4 @@
-# LetsGetitDoneAgain
+# LetsGetitDoneAgain (Entire Exp6 done readme is WIP)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
