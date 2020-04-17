@@ -23,5 +23,18 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 * Validity and StateChange [Example](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/e38584637bfc949dbae5857cc49696292c100e89/src/app/about/about.component.html#L1) | [Example](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/e38584637bfc949dbae5857cc49696292c100e89/src/app/generic-form/generic-form.component.html#L1)
 * Handle Submit [Template](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/e38584637bfc949dbae5857cc49696292c100e89/src/app/about/about.component.html#L1) | [Component](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/e38584637bfc949dbae5857cc49696292c100e89/src/app/about/about.component.ts#L18-L20)
 
-## Custom Directives(Login and SignUp)
+## Custom Directives
 * Component Directive [Generic Form Component](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/generic-form/generic-form.component.ts) | [Generic Form template](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/generic-form/generic-form.component.html) | [Usage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/login/login.component.html)
+* Attribut Directive [Directive](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/test-structural-directive.directive.ts) | [Usage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/47ee91c9a7cf08d592a2746286945dd72b06af71/src/app/store/store.component.html#L5)
+* Structural Directive [Directive](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/test-structural-directive.directive.ts) | [Usage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/47ee91c9a7cf08d592a2746286945dd72b06af71/src/app/home/home.component.html#L30)
+
+## Rounting
+* [Basic] (https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/47ee91c9a7cf08d592a2746286945dd72b06af71/src/app/app-routing.module.ts#L13-L19)
+* [UnknownEndPoint] (https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/47ee91c9a7cf08d592a2746286945dd72b06af71/src/app/app-routing.module.ts#L20)
+* [navigation](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/47ee91c9a7cf08d592a2746286945dd72b06af71/src/app/app.component.html#L314-L319)
+
+## Service 
+* [Shopping Service](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/shopping-manager.service.ts)
+* [Store Component](https://github.com/nurdtechie98/LetsGetItDoneAgain/tree/master/src/app/store) 
+* [Cart Component](https://github.com/nurdtechie98/LetsGetItDoneAgain/tree/master/src/app/cart)
+
