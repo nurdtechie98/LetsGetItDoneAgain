@@ -10,13 +10,15 @@ move t directory `cd LetsGetItDoneAgain`
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Angular Pipes (Home Page)
-
 * Inbuilt Pipes : [String](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L6-L9) | [Currency](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/store/store.component.html#L4)
-
 * Custom Pipes : [Usage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L18) | [Src Code](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/reverse-string.pipe.ts)
-
 * Custom Pipes With Args : [Usage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L20) | [Src Code](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/append-string.pipe.ts)
-
 * Custom Piped Using Inbuilt: [Usage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L21) | [Src Code](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/custom-lowercase.pipe.ts) | [Import](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/app.module.ts#L47) 
-
 * Pipe Chaining: [Usage](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/9658e19d6174f952d69a29db4870d71729ce04b4/src/app/home/home.component.html#L22)
+
+## Template Driven Form (About Page)
+* [Template](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/about/about.component.html)
+* [Component](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/about/about.component.ts)
+* [Two-way data bindings](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/e38584637bfc949dbae5857cc49696292c100e89/src/app/about/about.component.html#L4) [Component](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/e38584637bfc949dbae5857cc49696292c100e89/src/app/about/about.component.ts#L13)
+* Validity and StateChange [Example](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/e38584637bfc949dbae5857cc49696292c100e89/src/app/about/about.component.html#L1) | [Example](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/e38584637bfc949dbae5857cc49696292c100e89/src/app/generic-form/generic-form.component.html#L1)
+* Handle Submit [Template](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/e38584637bfc949dbae5857cc49696292c100e89/src/app/about/about.component.html#L1) | [Component](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/e38584637bfc949dbae5857cc49696292c100e89/src/app/about/about.component.ts#L18-L20)
