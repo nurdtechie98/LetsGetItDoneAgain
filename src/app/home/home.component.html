@@ -3,7 +3,7 @@
     <h3>Demo of inbuilt pipes </h3>
     <ul>
     <!--can be an expression-->
-    <li>{{ 'THIS USES INBUILT PIPELINE' | lowercase}} <span [style.font-weight]="'bold'">lowercase</span></li> 
+    <li>{{ 'THIS USES INBUILT PIPELINE' | lowercase}} <span [style.font-weight]="'bold'">lowercase</span></li>
     <!--can be a variable-->
     <li>{{ demo | uppercase}} <span [style.font-weight]="'bold'">uppercase</span></li>
     <li>{{ demo | titlecase}} <span [style.font-weight]="'bold'">titlecase</span></li>
@@ -15,7 +15,7 @@
     <h3>Demo of custom pipes </h3>
     <ul>
     <!--can be an expression-->
-    <li>{{ test | reverseString}} <span [style.font-weight]="'bold'">reverseString</span></li> 
+    <li>{{ test | reverseString}} <span [style.font-weight]="'bold'">reverseString</span></li>
     <!--can be a variable-->
     <li>{{ test | appendString:"Look":"with param"}} <span [style.font-weight]="'bold'">appendString</span></li>
     <li>{{ test | customLowercase:"Look":"with inbuilt pipe"}} <span [style.font-weight]="'bold'">customLowercase</span></li>

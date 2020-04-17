@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class AppendStringPipe implements PipeTransform {
 
-  transform(value: string, before:string, after: string ): string {
+  transform(value: string, before: string, after: string ): string {
     return `${before} ${value} ${after}`;
   }
 

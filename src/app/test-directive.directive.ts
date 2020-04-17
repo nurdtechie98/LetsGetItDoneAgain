@@ -5,7 +5,7 @@ import { Directive, ElementRef, HostListener } from '@angular/core';
 })
 export class TestDirectiveDirective {
 
-  constructor( private element : ElementRef) {
+  constructor( private element: ElementRef) {
     element.nativeElement.style.backgroundColor = "silver"
     element.nativeElement.style.border = "1px solid black"
     element.nativeElement.style.borderRadius = "3px"
