@@ -1,0 +1,9 @@
+.playGround {
+  margin: 10px;
+  width: 50vh;
+  padding: 10px;
+  background-color: Azure;
+  border: 2px solid black;
+  align-content: justify;
+  text-align: center;
+};

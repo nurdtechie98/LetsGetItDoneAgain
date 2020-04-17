@@ -1,0 +1,7 @@
+<h1> Cart </h1>
+<div *ngFor="let item of cart">
+  <div class="playGround">
+      {{item.name}} <br><br>{{item.price | currency:'INR' }} <br> quantity {{item.count}}<br>
+    <button appTestDirective (click)="removeItem(item.id)"> remove item cart </button>
+  </div>
+</div>

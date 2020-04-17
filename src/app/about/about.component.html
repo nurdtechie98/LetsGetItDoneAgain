@@ -1,0 +1,31 @@
+<form #testForm="ngForm" (ngSubmit)="doSomething(testForm.value)" class="playGround" [style.background-color]="testForm.valid?'PaleGreen':'Pink'">
+    <fieldset ngModelGroup="name"> <!-- check f.value why this ngModelGroup has been used -->
+        <label class="">Firstname: </label>
+        <input [style.width.%]="100" type="text" name="Firstname" [(ngModel)]="Firstname" required> <!-- ([ngModel]) two way binded changing this changes variable in component -->
+        <br><br>
+        <label>Lastname: </label>
+        <input [style.width.%]="100" type="text" name="Lastname" [ngModel]="Lastname" required maxlength="20"> <!-- [ngModel] one way binded changing this doesn't change variable in component -->
+    </fieldset>
+    <br>
+    <fieldset ngModelGroup="details">
+        <label>Street: </label>
+        <input [style.width.%]="100" type="text" name="Street" ngModel required> <!-- ngModel hence present in form.Value -->
+        <br><br>
+        <label>Zip Code: </label>
+        <input  [style.width.%]="100" type="text" name="Zip"> <!--ngModel missing hence not captures in testForm.value-->
+        <br><br>
+        <label>City: </label>
+        <input [style.width.%]="100" type="text" name="City" ngModel>
+    </fieldset>
+    <br>
+    <button [style.width.%]="100" type="submit" appTestDirective>Submit</button> <!-- button styling done using appTestDirective -->
+    <br><br>
+    Lastname is one way binded: {{Lastname}} <br> Firstname is two way binded: {{Firstname}} <br><br>
+    <a href="https://codecraft.tv/courses/angular/forms/template-driven/">A good explaination</a>
+</form>
+
+<div class="playGround">
+    <p>The tag testForm can be used as testForm.value</p>
+    <pre>{{testForm.value | json }}</pre>
+    <p>This is then also used during form submission</p>
+</div>

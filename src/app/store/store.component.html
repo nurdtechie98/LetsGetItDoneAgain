@@ -1,0 +1,8 @@
+<h1> Catalogue </h1>
+<div *ngFor="let item of catalog">
+  <div class="playGround">
+    {{item.name}} <br><br>{{item.price | currency:'INR' }} <br>
+    <button appTestDirective (click)="addToCart(item.id)"> add to cart </button>
+  </div>
+</div>
+<pre class="playGround" *ngIf="added">added item to cart</pre>
