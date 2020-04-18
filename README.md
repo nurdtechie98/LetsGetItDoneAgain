@@ -38,3 +38,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 * [Store Component](https://github.com/nurdtechie98/LetsGetItDoneAgain/tree/master/src/app/store) 
 * [Cart Component](https://github.com/nurdtechie98/LetsGetItDoneAgain/tree/master/src/app/cart)
 
+## HTTP Module for integration with [Auth API](https://github.com/nurdtechie98/LetsGetItDone/blob/master/controllers/auth.controller.js)
+* [Import Module](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/1783da50ce199fca16125a39f884c42d4a69496d/src/app/app.module.ts#L43)
+* [Authentication Service](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/master/src/app/auth.service.ts)
+* [login handler](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/1783da50ce199fca16125a39f884c42d4a69496d/src/app/login/login.component.ts#L13-L20)
+* [Signup handler](https://github.com/nurdtechie98/LetsGetItDoneAgain/blob/1783da50ce199fca16125a39f884c42d4a69496d/src/app/signup/signup.component.ts#L13-L20)
