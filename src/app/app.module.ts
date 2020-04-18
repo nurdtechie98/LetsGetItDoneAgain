@@ -18,7 +18,7 @@ import { SignupComponent } from './signup/signup.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { GenericFormComponent } from './generic-form/generic-form.component';
 import { StoreComponent } from './store/store.component';
-import { CartComponent } from './cart/cart.component'
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [

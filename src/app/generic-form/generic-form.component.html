@@ -2,10 +2,10 @@
 <h1 [style.text-align]="'center'"> {{name}} </h1>
 <form #genericForm="ngForm" (ngSubmit)="doSomething(genericForm.value)" >
     <label class="">Username: </label>
-    <input ngModel [style.width.%]="100" type="text" name="Username" required>
+    <input ngModel [style.width.%]="100" type="text" name="userid" required>
     <br><br>
     <label>Password: </label>
-    <input ngModel [style.width.%]="100" type="text" name="Password" required minlength="8">
+    <input ngModel [style.width.%]="100" type="text" name="password" required minlength="8">
     <br><br>
     <button [style.width.%]="100" [style.display]="genericForm.valid?'block':'none'">Submit</button>
 </form>
